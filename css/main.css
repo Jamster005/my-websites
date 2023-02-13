@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "OpineHeavy";
+    src: url(fonts/opine_heavy.ttf);
+}
+
+.header {
+    color: rgb(235, 212, 67);
+    font-family: "OpineHeavy", sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.navbar {
+    background-color: lightblue;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    justify-content: center;
+
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.main-content li {
+    list-style: none;
+    
+}
+
+section img {
+    max-width: 15%;
+    max-height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+.main-content a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.main-content p {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+.footer-links {
+    color: white;
+    font-family: "OpineHeavy", sans-serif;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.footer-links h3 {
+    font-size: 34px;
+    margin: 0;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-links il {
+    margin: 10;
+}
+
+
+body {
+    background-color: rgb(17, 107, 197);
+}
